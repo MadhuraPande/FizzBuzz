@@ -1,5 +1,6 @@
 //javascript program - FizzBuzz
-//Descirption - Given a set of numbers, for each number, print "fizz" if divisible by 3, print "buzz" if divisible by 5 and print "fizzbuzz" if divisible by both.
+/*Descirption - Given a set of numbers, for each number, print "fizz" if divisible by 3, print "buzz" if divisible by 5 
+and print "fizzbuzz" if divisible by both.*/
 
 function print() {
 
