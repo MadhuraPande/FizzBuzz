@@ -2,10 +2,10 @@
 /*Descirption - Given a set of numbers, for each number, print "fizz" if divisible by 3, print "buzz" if divisible by 5 
 and print "fizzbuzz" if divisible by both.*/
 
-function print(var printNumber, var printString){
+function print(printNumber, printString){
     node.appendChild(document.createTextNode(printNumber + " :" + printString));
     document.getElementById("output-area").appendChild(node);
-},
+}
 
 function calculate() {
 
