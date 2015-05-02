@@ -12,6 +12,7 @@ function calculate() {
 
     var startNumber = document.getElementById("number1").value;     //get first number entered by user
     var endNumber = document.getElementById("number2").value;       //get second number entered by user
+    document.getElementById("output-area").innerHTML = "";          //clear initial output before each new request
     for (var i = startNumber; i <= endNumber; i++) {                
         if (i % 15 == 0) {                                              //if divisible by 5 and 3 both print fizzbuzz
             print(i,"fizzbuzz");
